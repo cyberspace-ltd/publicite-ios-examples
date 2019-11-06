@@ -1,0 +1,11 @@
+framework module PubliciteSdk {
+  umbrella header "PubliciteSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module PubliciteSdk.Swift {
+    header "PubliciteSdk-Swift.h"
+    requires objc
+}
